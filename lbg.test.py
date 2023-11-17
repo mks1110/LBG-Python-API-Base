@@ -37,7 +37,7 @@ class MyLbgApiTestCase(unittest.TestCase):
         response = requests.post(BASE_URL + '/create', json = {'name': 'Tool', 'description': 'Hammer', 'price': 10.5})
         self.assertEqual(response.status_code, status.HTTP_201_CREATED)
 
-    @unittest.skip("Skip this test for now using this decorator...")
+    ##@unittest.skip("Skip this test for now using this decorator...")
     def test_create_post_request_type(self):
         """
         Test to see if RESTful API returns an object for a simple
