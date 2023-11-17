@@ -58,7 +58,7 @@ run_docker() {
 
     sleep 3
 
-    docker run -d -p 8080:$PORT -e PORT=$PORT $DOCKER_IMAGE
+    docker run -d -p 80:$PORT -e PORT=$PORT $DOCKER_IMAGE
 
 }
 
