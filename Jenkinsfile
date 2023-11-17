@@ -1,19 +1,19 @@
-pipeline {
+pipeline {     
+
     agent any
+
     stages {
-        stage('Build') {
+
+        stage('Build step') {
+
             steps {
-                sh '''
-                
-                '''
-           }
-        }
-        stage('Deploy') {
-            steps {
-                sh '''
-                
-                '''
+
+                sh "sh setup.sh"
+
             }
+
         }
+
     }
+
 }
