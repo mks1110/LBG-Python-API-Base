@@ -14,7 +14,7 @@ pipeline {
 
         CLUSTER_NAME = 'michaela-cluster'
 
-        LOCATION = 'europe-west2-c'
+        LOCATION = 'europe-west2-b'
 
         CREDENTIALS_ID = '98d50d51-d0ac-4c41-a851-1b1b5c20988e'
 
