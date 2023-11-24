@@ -6,7 +6,7 @@ pipeline {
 
         GCR_CREDENTIALS_ID = 'mks1011' // The ID you provided in Jenkins credentials
 
-        IMAGE_NAME = 'ms-test-image'
+        IMAGE_NAME = 'ms-image'
 
         GCR_URL = 'gcr.io/lbg-mea-15'
 
