@@ -12,7 +12,7 @@ pipeline {
 
         PROJECT_ID = 'lbg-mea-15'
 
-        CLUSTER_NAME = 'gke-michaela-cluster-default-pool-17837a77-972r'
+        CLUSTER_NAME = 'michaela-cluster'
 
         LOCATION = 'europe-west2-c'
 
